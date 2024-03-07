@@ -94,7 +94,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('http://localhost:3000', {
+    const response = await fetch('https://stark-spire-58821-2388ac8b8be1.herokuapp.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
