@@ -105,7 +105,7 @@ const handleSubmit = async (e) => {
         })
     })
 
-    addToChatHistory('user', data.get('prompt'))
+    addToChatHistory('user', message)
     clearInterval(loadInterval)
     messageDiv.innerHTML = " "
 
